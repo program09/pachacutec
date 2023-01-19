@@ -1,0 +1,210 @@
+:root{
+    --background-light:#f0f2f595;
+    --dark-primary:rgb(32, 32, 42);
+    --dark-secondary:rgb(28, 28, 37);
+    --dark-third:rgb(54, 51, 51);
+    --txt-black:rgb(66, 66, 66);
+    --color-green:#05b3a4;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Calibri light';
+}
+
+p,h1,h2,h3,h4,h4,h6{
+    margin: 0;
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: var(--txt-black);
+}
+
+body{
+    background: var(--background-light);
+}
+
+.asdfsdfs_adsfrb{
+    width: 100%;
+    height: 55px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    z-index: 999999999999;
+}
+
+.asdfsdfs_adsfrb .logo a img{
+    height: 35px;
+}
+
+.nav_sect_edfg .icons-utuls button{
+    border: 0;
+    padding: 7px 10px;
+}
+
+
+
+
+
+/*MAIN_CONT_ASIDE*/
+
+.cont_maindfsf_rtyccv_aside{
+    display: flex;
+    padding-top: 55px;
+    
+}
+
+.cont_maindfsf_rtyccv_aside .aside{
+    width: 240px;
+    height: 100vh;
+    background: white;
+    position: fixed;
+    padding: 20px;
+    box-shadow: rgba(207, 207, 207, 0.15) 2.4px 2.4px 3.2px;
+
+}
+
+.cont_maindfsf_rtyccv_aside main{
+    padding-top: 10px;
+    margin-left: 240px;
+    width: calc(100% - 240px);
+}
+
+.cont_user_dates button{
+    width: 100%;
+    border: 0;
+    padding: 7px;
+    
+}
+
+
+.nav_aside_asfegrt{
+    margin-top: 20px;
+}
+
+
+.nav_aside_asfegrt ul{
+    margin: 0;
+    padding: 0;
+}
+.nav_aside_asfegrt ul li{
+    list-style: none;
+}
+
+.nav_aside_asfegrt ul li a{
+    width: 100%;
+    padding: 10px;
+    display: block;
+}
+
+.nav_aside_asfegrt ul li a:hover{
+    background: rgb(245, 245, 245);
+    color: var(--txt-black);
+}
+
+.nav_aside_asfegrt ul li a i{
+    width: 30px;
+    text-align: center;
+}
+
+
+.cont_asf_uiop_ghg{
+    width: 100%;
+
+}
+#btn_menu{
+    visibility: hidden;
+        position: absolute;
+}
+
+@media (max-width: 768px){
+    .cont_maindfsf_rtyccv_aside main{
+        margin-left: 0px;
+        width: 100%
+    }
+    .cont_maindfsf_rtyccv_aside .aside{
+        visibility: hidden;
+        position: absolute;
+    
+    }
+    #btn_menu{
+        visibility: visible;
+        position: relative;
+    }
+
+    .btn_venta span{
+        visibility: hidden;
+        position: absolute;
+    }
+
+}
+
+
+.aside_none .cont_maindfsf_rtyccv_aside .aside{
+    visibility: visible;
+    position: fixed;
+}
+
+.btn_menu_adf{
+    background: rgb(252, 180, 71);
+    color: white;
+}
+
+.breadcrumb{
+    margin-top: 10px;
+}
+
+
+.dash_cub_ads{
+    padding-top: 10px;
+    width: 100%;
+
+}
+
+
+.rows{
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 20%)) !important;
+    gap: 10px;
+    justify-content: center;
+}
+
+.cardas{
+    background: rgba(255, 255, 255, 0.89);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: rgba(155, 154, 154, 0.13) 0px 3px 3px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.cardas:hover i{
+    color: rgb(233, 139, 76);
+}
+
+.cardas .date_asd span{
+    display: block !important;
+    margin-left: 10px;
+}
+
+.cardas i{
+    width: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+
+@media (max-width:450px){
+    .rows{
+        grid-template-columns: repeat(auto-fit, calc(50% - 10px)) !important;
+        gap: 10px;
+    }
+}

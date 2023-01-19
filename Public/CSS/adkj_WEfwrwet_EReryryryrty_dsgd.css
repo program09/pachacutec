@@ -1,0 +1,358 @@
+:root{
+    --background-light:#e2e8f395;
+    --dark-primary:rgb(32, 32, 42);
+    --dark-secondary:rgb(28, 28, 37);
+    --dark-third:rgb(54, 51, 51);
+    --txt-black:rgb(66, 66, 66);
+    --color-green:#1482c7;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Calibri light';
+}
+
+body{
+    background-color: var(--background-light);
+}
+
+p,h1,h2,h3,h4,h4,h6{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: var(--txt-black);
+}
+
+.header_conts_SAfefe{
+    width: 100%;
+    background: var(--background-light);
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.her_ddfg{
+    width: 100%;
+    height:65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(238, 238, 238);
+    box-shadow: rgba(182, 182, 182, 0.1) 0px 10px 15px -3px, rgba(238, 236, 236, 0.05) 0px 4px 6px -2px;
+    z-index: 99999999999;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to left, #3a70d5 50%, #ed411f 90%) 2;
+}
+
+.icon_Aerw_acprerg img{
+    height: 50px;
+}
+
+.icon_Aerw_acprerg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_icons{
+    border: 0;
+    background: transparent;
+}
+
+.nav_asfp{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav_pages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_asfp .nav_pages a{
+    padding: 20px 10px;
+}
+.menu_dromps{
+    padding: 20px 10px;
+}
+
+.nav_asfp .nav_pages a:hover{
+    background: rgb(244, 242, 241);
+    color: rgb(71, 69, 69);
+}
+
+
+.nav_icons_actions{
+    margin-left: 10px;
+}
+
+.nav_icons_actions button{
+    padding: 10px;
+}
+.nav_icons_actions button i{
+    font-size: 22px;
+}
+
+.btn_menux{
+    visibility: hidden;
+    position: absolute;
+}
+
+
+
+
+.menu_dromps .drop_ert{
+    visibility: hidden !important;
+    position: absolute;
+    margin: 0 !important;
+    width: 210px;
+    margin-left: -130px !important;
+    top: 65px;
+}
+.menu_dromps .drop_ert li{
+    list-style: none;
+    margin: 0 !important;
+}
+.menu_dromps:hover{
+    background: rgb(244, 242, 241);
+    color: rgb(71, 69, 69);
+}
+
+.menu_dromps:hover .drop_ert{
+    visibility: visible !important;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(193, 195, 198, 0.188) 0px 8px 24px;
+}
+
+
+.drop_ert{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.drop_ert a{
+    padding: 6px 10px !important;
+    display: block;
+
+}
+.drop_ert a:hover{
+    background: rgb(83, 165, 237) !important;
+    color: rgb(255, 255, 255) !important;;
+}
+
+.icon_shp_car span{
+    color: rgb(71, 81, 116);
+    background: rgb(239, 196, 130);
+    padding: 0px 5px;
+    color: white;
+    border-radius: 50%;
+    margin-left: -5px;
+}
+
+.offcanvas{
+    z-index: 9999999999;
+    height: calc(100vh - 60px);
+    top: 65px;
+}
+
+.menu_offcanvas{
+    width: 100%;
+    border: 0;
+    height: 380px;
+    background: rgba(255, 255, 255, 0);
+    padding: 10px;
+    
+}
+
+.menu_offcanvas .offcanvas-body{
+    width: 100%;
+    border: 0;
+    background: rgb(82, 145, 212);
+    border-radius: 10px;
+    box-shadow: rgba(193, 195, 198, 0.188) 0px 8px 24px;
+    text-align: center;
+}
+
+
+.body_casgege{
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 50px;
+    border-top: 1px solid rgb(235, 235, 235);
+}
+
+.body_casgege p{
+    border: 0;
+    color: rgb(0, 0, 0);
+    margin: 0 !important;
+}
+
+
+.body_casgege button{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    background: rgb(73, 153, 234);
+    color: white;
+}
+
+
+@media (max-width: 768px){
+    .her_ddfg{
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .icon_Aerw_acprerg img{
+        height: 35px;
+    }
+    .nav_pages{
+        display: none;
+    }
+    .nav_icons_actions .btn_menux{
+        visibility: visible;
+        position: relative;
+    }
+    .asadas_34 a{
+        width: 100% !important;
+        padding: 10px;
+        display: block !important;
+        text-align: center !important;
+        color: white;
+    }
+}
+
+@media (min-width: 768px){
+    .menu_offcanvas{
+        display: none;
+    }
+}
+
+
+.redes_dater_wewr34{
+    text-align: center;
+    padding: 20px;
+}
+.redes_dater_wewr34 i{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+.txt_white{
+    color: white;
+}
+
+
+.item_prod_car{
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn_cancel{
+    margin-top: 5px;
+    background: rgb(239, 86, 86) !important;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    position: relative;
+    background: var(--color-green);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.footer .row{
+    width: 100% !important;
+}
+
+
+
+.menu__item {
+  list-style: none;
+}
+
+
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+.menu__link:hover{
+	color: white;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.footer h5{
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+    font-weight: 777;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.footer ul li{
+    color: white;
+}
+
+
+.form_sfdr form{
+    width: 80%;
+    margin: auto;
+}
+.form_sfdr form input{
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 5px;
+    outline: none;
+    border: 0;
+    border-radius: 2px;
+}
+
+.btn_redes_Dfsghn{
+    width: 100%;
+}
+
+.btn_redes_Dfsghn button{
+    color: white;
+}

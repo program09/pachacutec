@@ -1,0 +1,105 @@
+:root{
+    --background-light:#f0f2f595;
+    --dark-primary:rgb(32, 32, 42);
+    --dark-secondary:rgb(28, 28, 37);
+    --dark-third:rgb(54, 51, 51);
+    --txt-black:rgb(66, 66, 66);
+    --color-green:#05b3a4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Calibri light';
+}
+
+p,h1,h2,h3,h4,h4,h6{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: var(--txt-black);
+}
+
+body{
+    background-image: url('https://images.alphacoders.com/812/81223.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body .container{
+    height: 100vh;
+}
+
+.form_losddf{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_losddf .form{
+    width: 280px;
+}
+
+form .cont_img_logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+form .cont_img_logo img{
+    height: 100px;
+}
+
+form .form_input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form .form_input input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-bottom: 3px solid rgb(89, 134, 231);
+    padding-right: 35px;
+    border-radius: 10px;
+}
+
+form .form_input button{
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    background: rgb(240, 21, 21);
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(187, 187, 193, 0.179) 0px 0px 16px;
+    margin-top: 10px;
+}
+form .form_input button:hover{
+    background: rgb(228, 157, 82);
+    color: whitergb(204, 136, 64)
+}
+
+.password-icon {
+    float: right;
+    position: relative;
+    margin: -36px 10px 0 0;
+    cursor: pointer;
+    color: rgb(74, 71, 67);
+}
+
+
+@media (max-width:430px){
+    .form_losddf .form{
+        width: 90%;
+    }
+}

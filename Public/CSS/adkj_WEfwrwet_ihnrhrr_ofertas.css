@@ -1,0 +1,63 @@
+
+
+.ofertas_asdfsfs .tab-content{
+    width: 100%;
+}
+.row{
+    margin: 0;
+}
+
+.cont_aferts_sider{
+    width: 100%;
+}
+
+.left_datdf{
+    background: rgb(104, 130, 233);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.right_datdf{
+    padding: 10px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: rgb(96, 115, 191);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dates_dsfghrtbrfnytnR_Thryn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.brntS_regegv button{
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 8px;
+    background: rgb(81, 145, 236);
+    color: white;
+
+}
+
+@media (max-width:570px){
+    .dates_dsfghrtbrfnytnR_Thryn{
+        display: block;
+    }
+    .brntS_regegv{
+        margin-top: 20px;
+    
+    }
+}
+
+
+
+.defv_fgrttrtgrth_TYhty h6 b{
+    font-weight: 000;
+    text-decoration: line-through;
+    color: rgb(58, 56, 56);
+}

@@ -1,0 +1,105 @@
+
+
+.tab-content{
+    width: 100%;
+}
+
+
+
+
+input[type=checkbox] {
+    display: none;
+}
+
+.image-container .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-container .container img {
+    width: 80% !important;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+}
+
+input[type=checkbox]:checked~label>img {
+    transform: scale(1.5);
+    cursor: zoom-out;
+}
+
+#accordion .card .card-header {
+    padding: 0;
+}
+#accordion .card .card-header a{
+    padding: 5px 10px;
+    display: block;
+    width: 100%;
+}
+
+#collapseOne .card-body{
+    padding: 5px;
+}
+
+#collapseOne .card-body article{
+    padding: 5px;
+    display: flex;
+    border-bottom: 1px solid rgb(231, 226, 226);
+    
+
+}
+
+#collapseOne .card-body article:hover{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    border-bottom: 1px solid rgb(231, 226, 226);
+
+}
+
+article .foto_user{
+    width: 50px;
+    height: 50px;
+}
+
+article .foto_user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.dates_comrs_erethyj h5{
+    margin: 0;
+    margin-left: 10px;
+    color: black;
+}
+.dates_comrs_erethyj p{
+    margin: 0;
+    margin-left: 10px;
+    color: rgb(95, 92, 92);
+}
+
+.precio_asdfghdrgevs{
+    color: rgb(239, 11, 11);
+}
+
+.btn_car_add_dfghjyrtdrgfv{
+    padding: 10px;
+    background: red;
+    color: white;
+}
+
+.btn_consultas{
+    padding: 10px;
+    background: rgb(104, 189, 68);
+    color: white;
+}
+
+.btnxcv:hover{
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.105) 0px 7px 29px 0px;
+}

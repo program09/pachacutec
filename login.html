@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pachacu Tec</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Public/Icons_acp_6/css/all.min.css">
+
+    <link rel="stylesheet" href="Public/CSS/adkj_WEfwrwet_EReryryryrty_login_qwrtrt.css">
+
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="form_losddf">
+            <div class="form">
+                <form action="">
+                    <div class="cont_img_logo">
+                        <img src="Public/Imagenes/h_pachatutec_logo.png" alt="">
+                    </div>
+                    <div class="form_input">
+                        <input type="text" placeholder="Correo electrónico" required>
+                    </div>
+                    <div class="form_input">
+                        <input class="password1" type="password" placeholder="Contraseña" required>
+                        <span class="fa fa-fw fa-eye password-icon show-password"></span>
+                    </div>
+                    <div class="form_input">
+                        <button type="submit">Ingresar</button>
+                    </div>
+                    <a href=""><i class="fa-light fa-circle-question"></i> ¿Olvidaste tu correo o contraseña?</a>
+                    <br><br>
+                    <a href=""><button  type="button" class="btn btn-dark">Registrarme</button></a>
+                    <a href="index.html"><button type="button" class="btn btn-danger">Volver al inicio</button></a>
+
+                </form>
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener("load", function() {
+      
+          // icono para poder interaccionar con el elemento
+          showPassword = document.querySelector('.show-password');
+          showPassword.addEventListener('click', () => {
+      
+            // elementos input de tipo password
+            password1 = document.querySelector('.password1');
+      
+            if ( password1.type === "text" ) {
+                password1.type = "password"
+                showPassword.classList.remove('fa-eye-slash');
+            } else {
+                password1.type = "text"
+                showPassword.classList.toggle("fa-eye-slash");
+            }
+        })
+      });
+    </script>
+
+
+
+
+    <script src="Public/JS/main.js"></script>     
+</body>
+</html>
